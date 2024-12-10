@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-image: url('../../assets/image/bg.jpg'); 
+    background-size: cover; 
+    background-repeat: repeat; 
+    background-position: center; 
+  }
+  
+  /* Container styling */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    color: #4a3d2e;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+  }
+  
+  .icon {
+    margin-top: 10px;
+  }
+  
+/* Login Box */
+.login-box {
+  background: #332B08; 
+  padding: 30px; 
+  border-radius: 15px; 
+  width: 400px; 
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #ffffff;
+  margin-bottom: 25px; 
+  font-family: "Arial", sans-serif; 
+  font-size: 20px; 
+  text-transform: uppercase;
+}
+
+/* Input Field */
+.input-field {
+  margin-bottom: 20px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.input-field input {
+  width: 90%; 
+  padding: 12px;
+  border: none; 
+  border-radius: 10px; 
+  background: #F5F5F5;
+  color: #333; 
+  font-size: 16px; 
+  outline: none; 
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.input-field input::placeholder {
+  color: #999; 
+}
+
+button {
+  width: 100%; 
+  padding: 12px; 
+  border: none; 
+  border-radius: 10px; 
+  background: #fff; 
+  color: #4a3d2e; 
+  font-size: 18px;
+  font-weight: bold; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background: #4a3d2e; 
+  color: #fff; 
+}
+  
+  .login-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-image: url("https://via.placeholder.com/100x100");
+    opacity: 0.1;
+  }
+
+    .waves-image {
+      position: absolute;
+      size: 30px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+    
+  
